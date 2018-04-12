@@ -16,5 +16,5 @@ order: 40
 * **Vincent Baines**: PhD student, 2007-2015.  Developer of tools for Bath Sensor Framework.  <a href="http://www.informatik.uni-trier.de/~ley/pers/hd/b/Baines:Vincent">DBLP</a>
 * **Aidan Scotney**: undergraduate project student (2011).  Developed first version of Bath Sensor Framework.
 * **Nick Jones**: undergraduate project student (2011). Developed second implementation of InstAL.
-* **Owen CLiffe**: PhD student 2004-2008.  Developer of original InstAL implementation (parser and visualizer).
+* **Owen Cliffe**: PhD student 2004-2008.  Developer of original InstAL implementation (parser and visualizer).
 	  <a href="http://www.informatik.uni-trier.de/~ley/pers/hd/c/Cliffe:Owen">DBLP</a>
