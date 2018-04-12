@@ -4,7 +4,7 @@ title: People
 order: 40
 ---
 # Current team
-* **Charlie Page**: PhD student 2016-date. Co-developer of current implementation of InstAL tools and of the InstAL-REST framework.
+* **Charlie Ann Page**: PhD student 2016-date. Co-developer of current implementation of InstAL tools and of the InstAL-REST framework.
 * **Andreasa Morris Martin**: PhD student 2017-date.
 * **Fahid Mohammed**: PhD student 2018-date.
 * **Marina De Vos**: Staff. Co-developer of current implementation of InstAL tools. <a href="http://www.informatik.uni-trier.de/~ley/pers/hd/v/Vos:Marina_De">DBLP</a>
