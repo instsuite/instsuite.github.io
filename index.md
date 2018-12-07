@@ -5,7 +5,9 @@ order: 10
 ---
 # Welcome to the InstAL project pages
 
-The InstAL project provides tools for the specification, verification and monitoring of normative frameworks.
+InstAL is the Institutional Action Language.
+
+The InstAL project provides tools for the specification, verification and monitoring of normative frameworks written in InstAL.
 
 InstAL works by translating institutional specifications into Answer Set Prolog (AnsProlog), then using an answer set solver (we use <a href="http://potassco.org/">clingo</a>) to generate answer sets, subject to the constraints of a specified number of time steps and whatever constraints - positive or negative - the client wishes to express about the properties of the answer set.
 
