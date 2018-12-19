@@ -44,14 +44,13 @@ This use case outline is informed by the terminology and description at https://
 
 InstAL models are built around events, who is permitted/empowered to cause them and the effects they have on institutional states, therefore the informal methodology for model specification is to examine the use case for actors, events and facts that need to be remembered. The events typically become external events in the specification, parameterised by relevant information, such the actors responsible for them, while facts become fluents, again parameterised by relevant information, that are initiated or terminated by (institutional) events subject to the institutional state at the time. Some scenarios contain more than one activity, in which case, it can be appropriate to map each activity to a separate institution and then specify cross-generation and cross-consequence rules to capture the interactions between them.
 
-In the case of the tendering scenario, it is clear there are several phases, each of which we have chosen to map to a separate institutional specification, namely publication, review, decision and notification.Various events can be identified from the scenario description associated with each of the phases, which become external events in the specification. Taking the publication phase as an example (see Figure 3), there are also exceptional events, such as a submission after the deadline, which is captured as a violation event, if an actor does not meet the obligation to submit a bid before the
-end of the submission phase. Lastly, an institutional state or condition can be captured through the use of a non-inertial fluent, in this case to signal that a separation of roles has not been observed.
+In the case of the tendering scenario, it is clear there are several phases, each of which we have chosen to map to a separate institutional specification, namely publication, review, decision and notification.Various events can be identified from the scenario description associated with each of the phases, which become external events in the specification. Taking the [publication phase](https://github.com/instsuite/instsuite.github.io/blob/master/guide.md#the-publication-phase)) as an example, there are also exceptional events, such as a submission after the deadline, which is captured as a violation event, if an actor does not meet the obligation to submit a bid before the end of the submission phase. Lastly, an institutional state or condition can be captured through the use of a non-inertial fluent, in this case to signal that a separation of roles has not been observed.
 
 Once a specification comprises several institutions, it becomes necessary to consider how they may affect one another. This aspect is expressed using cross-generation and cross-consequence rules, as illustrated in Figure 4. In particular, the figure shows that the institutional event intSubmissionDue in the publication institution generates the external event reviewStarts in the review institution, with corresponding similar cross-generation rules connecting review and decision and decision and notification. Similarly, an event in one institution can bring about a change of state in another, such as the submission of a bid (intSubmitBid) in publication leading to the initiation of the fluent readForReview in the review institution.
 
 **describe workflow for creating an institution here**
 
-### Specifying the publication phase
+### The publication phase
 
 An institutions has a name (publication), some types for the parameters to events, and exogenous, institutional and violation events: 
 <pre><code>
@@ -213,13 +212,15 @@ intSubmissionDue(RFT) terminates
    pow(intSubmitBid(Agent, Bid, RFT)); 
 </code></pre>
 
-### Review
+### The submission phase
 
-### Decision
+### The review phase
 
-### Notification
+### The decision phase
 
-### Bridge
+### The notification phase
+
+### Bridges
 
 ## A Sample Trace
 
