@@ -18,7 +18,7 @@ minimal: true             # use a dark header
 navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "gdpr.md"}
   - {file: "index.md"}
-  - {file: "README.md"}
+  - {file: "guide.md"}
   - {file: "people.md"}
   - {file: "publications.md"}
   - {file: "downloads.md"}
