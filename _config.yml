@@ -1,24 +1,35 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
+title: "InstAL"
+author: "InstAL"
+description: "Made with <a href='https://github.com/niklasbuschmann/contrast'>contrast</a>"
+permalink: /:title/
+lang: "en"
+excerpt_separator: "\n\n\n"
+date_format: "%B %d, %Y"
 
-# Site settings
-title: InstAL
-email: TODO@TODO
-description: >-
-    Description TODO
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+# Layout
 
-# Build settings
-markdown: kramdown
+show_excerpts: true        # show article excerpts on the home page
+show_frame: true           # adds a gray frame to the site
+show_sidebar: false        # show a sidebar instead of the usual header
+minimal: true             # use a dark header
 
-header_pages:
-- index.md
-- publications.md
-- people.md
-- download.md
-- guide.md
+# Menu
+
+navigation:                # accepts {file, title, url, icon, sidebaricon}
+  - {file: "gdpr.md"}
+  - {file: "index.md"}
+  - {file: "README.md"}
+  - {file: "people.md"}
+  - {file: "publications.md"}
+  - {file: "downloads.md"}
+
+external:                  
+  - {title: Github, icon: github, url: "https://github.com/instsuite/instal-stable"}
+
+
+comments:
+#  disqus_shortname: ""    # see https://disqus.com/
+#  isso_domain: ""         # see https://posativ.org/isso/
+
+plugins:
+ - jekyll-feed

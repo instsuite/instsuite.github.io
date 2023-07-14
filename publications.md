@@ -1,5 +1,8 @@
 ---
+title: "Publications"
+permalink: "/publications/"
 layout: page
-title: Publications
-order: 30
 ---
+
+
+Update in progress...
